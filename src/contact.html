@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - LTS</title>
+    <link rel="icon" href="/images/taco-image.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href=" /src/home.html">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About <abbr title="The Little Taco Shop">LTS</abbr></a>
+                </li>
+                <li>
+                    <a href="#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="/src/hours.html">Store Hours</a>
+                </li>
+            </ul>
+        </nav>
+
+        <figure>
+            <img src="/images/" alt="Little Taco Shop Tacos" title="Tacos ready to eat!" width="400" height="250">
+            <figcaption>
+                Little Taco Shop Tacos
+            </figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <section>
+        <h2>Our Contact Form</h2>
+        <form action="http://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Send Us A Message</legend>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="your name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="your email" required>
+                </p>
+                <p>
+                    <label for="message">Your Message:</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                </p>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </section>
+    <section>
+        <h2>Our Location</h2>
+        <address>
+            555 Taco Lane, Suite T <br>
+            Toyko, MO 12341-12341
+            <br><br>
+            Phone: <a href="tel:+1234112341">12341-12341</a>
+        </address>
+    </section>
+    </main>
+    <footer>
+        <p>COpyright &copy; A Little Taco Shop</p>
+    </footer>
+</body>
+</html>
